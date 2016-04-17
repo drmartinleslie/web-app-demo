@@ -6,3 +6,4 @@ Install
 - PyCharm (code editor)
 - Git (for interacting with github)
 
+https://docs.continuum.io/anaconda/ide_integration to tell PyCharm where git is
