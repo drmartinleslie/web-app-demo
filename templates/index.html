@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FishDB</title>
+</head>
+<body>
+<p>Welcome to the fish database, FishDB!</p>
+<p>There are {{ numEntries }} entries in the database.</p>
+<p> Add another entry below.</p>
+</body>
+
+<form action="/submit" method="get">
+    Species:
+    <select name="Species">
+        <option value="Black Cod">Black Cod</option>
+        <option value="Sand Dab">Sand Dab</option>
+    </select>
+    Number: <input type="number" name="Number">
+    <input type="submit" value="Submit">
+</form>
+
+
+</html>
