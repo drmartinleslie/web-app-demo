@@ -19,7 +19,7 @@ def submit():
         count = request.args.get("Number")
         post = {"species": species, "count": count}
         db.fish_counts.insert_one(post)
-        return "You saw {} {}".format(count, species)
+        return "You saw {} {} today!".format(count, species)
 
 @app.route('/analysis')
 def analysis():
